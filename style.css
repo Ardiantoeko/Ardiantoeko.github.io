@@ -1,156 +1,157 @@
 /* My Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
 
-*{
+* {
   box-sizing: border-box;
 }
 
-body{
+body {
   font-family: 'Nunito', sans-serif;
 }
 
 /* Navbar */
-.navbar-brand{
+.navbar-brand {
   font-family: Viga;
   font-size: 32px;
   color: white;
 }
- 
-#navbar{
+
+#navbar {
   background-color: white;
   font-family: sans-serif;
 }
 
-.my-nav-bg{
+.my-nav-bg {
   background-color: #007bff !important;
   height: 60px;
 }
 
 /* jumbotron */
-.jumbotron{
+.jumbotron {
   background-image: url(img/jumbotron-bg.jpg);
   background-size: cover;
   height: 540px;
   text-align: center;
 }
 
-.jumbotron img{
+.jumbotron img {
   margin-top: 70px;
 }
- 
-.jumbotron .display-4{
+
+.jumbotron .display-4 {
   color: white;
   margin-top: 40px;
   font-weight: 200;
-  text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
   font-size: 40px;
 }
 
-.jumbotron .lead{
+.jumbotron .lead {
   color: white;
   margin-top: -10px;
   font-weight: 200;
-  text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
   font-size: 20px;
 }
 
 /* About */
-.about{
-  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+.about {
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
   background-color: white;
   padding: 30px;
   border-radius: 12px;
   margin-top: 40px;
 }
 
-.about1{
+.about1 {
   padding-top: 25px;
   font-size: 16px;
   padding-bottom: 10px;
 }
 
-.about2{
+.about2 {
   padding-top: 0px;
 }
-.judul{
+
+.judul {
   position: relative;
   display: inline;
   font-weight: 600;
 }
 
-.judul:after{
- content: '';
- position: absolute;
- width: 50%;
- height: 4px ;
- background-color: red;
+.judul:after {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 4px;
+  background-color: red;
   bottom: 0;
   left: 50%;
-  transform: translate(-50%,100%);
+  transform: translate(-50%, 100%);
 }
 
 
- 
-.atur{
+
+.atur {
   padding-top: 10px;
   font-size: 25px !important;
   font-weight: 600;
 }
- 
-#table tr td:nth-child(1){
-  width: 27% ;
+
+#table tr td:nth-child(1) {
+  width: 27%;
   font-size: 19px;
   font-weight: 600;
   padding-top: 5px;
 }
 
-#table tr td:nth-child(2){
-  width: 73% ;
+#table tr td:nth-child(2) {
+  width: 73%;
 }
 
-#table tr td:nth-child(3){
-  width: 27% ;
+#table tr td:nth-child(3) {
+  width: 27%;
 }
 
-#table tr td:nth-child(4){
-  width: 73% ;
+#table tr td:nth-child(4) {
+  width: 73%;
 }
 
-#table tr td:nth-child(1){
-  width: 27% ;
+#table tr td:nth-child(1) {
+  width: 27%;
 }
 
-#table tr td:nth-child(2){
-  width: 73% ;
+#table tr td:nth-child(2) {
+  width: 73%;
 }
 
-#table tr td:nth-child(3){
-  width: 27% ;
+#table tr td:nth-child(3) {
+  width: 27%;
 }
 
-#table tr td:nth-child(4){
-  width: 73% ;
+#table tr td:nth-child(4) {
+  width: 73%;
 }
 
-#table tr td:nth-child(3){
-  width: 27% ;
+#table tr td:nth-child(3) {
+  width: 27%;
 }
 
-#table tr td:nth-child(4){
-  width: 73% ;
+#table tr td:nth-child(4) {
+  width: 73%;
 }
 
 /* skill */
 
-.profesional{
+.profesional {
   font-size: 25px !important;
   font-weight: 600;
   text-align: center;
   padding-bottom: 30px;
-} 
+}
 
 /* education */
-.education{
+.education {
   font-size: 25px !important;
   font-weight: 600;
   text-align: center;
@@ -158,31 +159,31 @@ body{
   margin-bottom: 40px;
 }
 
-.melengkung{
- border-radius: 12px;
+.melengkung {
+  border-radius: 12px;
 }
 
-.alamat{
+.alamat {
   font-size: 20px;
   padding-top: 20px;
   padding-left: 10px;
   font-weight: 600;
 }
 
-.tanggal{
+.tanggal {
   padding-left: 10px;
 }
 
-.sekolah{
- font-weight: 700;
- padding: 46px;
- color: white;
+.sekolah {
+  font-weight: 700;
+  padding: 46px;
+  color: white;
 }
 
 
 
 /* contact */
-.kontak{
+.kontak {
   font-size: 25px !important;
   font-weight: 600;
   text-align: center;
@@ -191,26 +192,30 @@ body{
 }
 
 
-.us{
-  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);;
+.us {
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+  ;
 }
 
-.kontak2{
+.kontak2 {
   font-size: 15px;
   color: #acacac;
   padding-left: 25px;
 }
 
-input[type= "text"]:focus,input[type= "email"]:focus, input[type="text"],input[type="email"]{
- padding-bottom: 10px;
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="text"],
+input[type="email"] {
+  padding-bottom: 10px;
 }
 
-label{
+label {
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
-.input-group-text{
+.input-group-text {
   background-color: white;
   border: none;
   font-size: 20px;
@@ -218,70 +223,72 @@ label{
   margin-top: 2px;
 }
 
-input:valid{
+input:valid {
   color: red;
   font-size: 20px;
   left: 0;
   top: -18px;
 }
 
- .tombol{
-   margin: 10px 5px 20px 5px;
-   width: 100%;
- }
+.tombol {
+  margin: 10px 5px 20px 5px;
+  width: 100%;
+}
 
- .isi-kontak{
-   margin-top: 10px;
-   font-size: 18px;
- }
+.isi-kontak {
+  margin-top: 10px;
+  font-size: 18px;
+}
 
- .container .mobile{
-   
-   margin-right: 25px;
-   margin-left: 25px;
- }
+.container .mobile {
 
- .judul1{
+  margin-right: 25px;
+  margin-left: 25px;
+}
+
+.judul1 {
   position: relative;
   font-weight: 600;
 }
 
-.judul1:after{
- content: '';
- position: absolute;
- width: 10%;
- height: 4px ;
- background-color: red;
+.judul1:after {
+  content: '';
+  position: absolute;
+  width: 10%;
+  height: 4px;
+  background-color: red;
   bottom: 0;
   left: 50%;
-  transform: translate(-50%,100%);
+  transform: translate(-50%, 100%);
 }
 
 
 /* footer */
-footer{
+footer {
   margin-top: 60px;
 }
 
-footer p{
+footer p {
   color: #acacac;
   font-size: 18px;
 }
 
 
 /* DESKTOP VERSION */
-@media(min-width: 750px){
-  .navbar-brand, .nav-link{
+@media(min-width: 750px) {
+
+  .navbar-brand,
+  .nav-link {
     color: white !important;
-    text-shadow: 1px 1px 1px rgba(0,0,0,0.7);  
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
   }
-  
-  .nav-link{
+
+  .nav-link {
     text-transform: uppercase;
     margin-right: 32px;
   }
 
-  .nav-link:hover::after{
+  .nav-link:hover::after {
     content: '';
     display: block;
     border-bottom: 3px solid #ec0404;
@@ -291,46 +298,46 @@ footer p{
     margin-bottom: -8PX;
   }
 
-  #navbar{
+  #navbar {
     background-color: transparent;
   }
-  
-  .jumbotron{
+
+  .jumbotron {
     margin-top: -75px;
     height: 640px;
   }
-  
-  .jumbotron .display-4{
-  font-size: 62px;  
+
+  .jumbotron .display-4 {
+    font-size: 62px;
   }
-  
-.jumbotron img{
-  margin-top: 120px;
-  width: 20%;
-}
 
-.jumbotron .lead{
-  font-size: 20px;
-}
+  .jumbotron img {
+    margin-top: 120px;
+    width: 20%;
+  }
 
-.about1{
-  font-size: 18px;
-}
+  .jumbotron .lead {
+    font-size: 20px;
+  }
 
-.garis{
-  box-shadow: 5px 0 0px #007bff;
-}
+  .about1 {
+    font-size: 18px;
+  }
 
-.atur{
-  padding-top: 4px;
-  padding-bottom: 10px;
-  font-size: 25px !important;
-}
+  .garis {
+    box-shadow: 5px 0 0px #007bff;
+  }
 
-.tombol{
-  margin: 10px 5px 20px 5px;
-  width: 25%;
-}
+  .atur {
+    padding-top: 4px;
+    padding-bottom: 10px;
+    font-size: 25px !important;
+  }
+
+  .tombol {
+    margin: 10px 5px 20px 5px;
+    width: 25%;
+  }
 
 
 }
